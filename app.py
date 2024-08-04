@@ -1,6 +1,8 @@
 import streamlit as st
 from transformers import RobertaTokenizer, RobertaForSequenceClassification
 import torch
+
+
 # Загрузка модели и токенизатора
 model_path = "scheduler.pt"
 tokenizer = RobertaTokenizer.from_pretrained(model_path)
