@@ -4,10 +4,8 @@ from transformers import RobertaTokenizer, RobertaForSequenceClassification
 import torch
 
 
-# Загрузка модели и токенизатора
-model_path = "scheduler.pt"
-tokenizer = RobertaTokenizer.from_pretrained(model_path)
-model = RobertaForSequenceClassification.from_pretrained(model_path)
+tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+model = RobertaForSequenceClassification.from_pretrained('roberta-base')
 
 # Функция для предсказания корректности кода
 def predict_code_correctness(code):
