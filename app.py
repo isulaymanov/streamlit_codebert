@@ -21,8 +21,8 @@ st.title("JavaScript Code Correctness Checker")
 
 # Информация об авторстве
 st.markdown("""
-    **Автор:** Ридлиgit -v  
-    **Контакт:** ваша.почта@example.com  
+    **Автор:** Sulaymanov ilgiz
+    **Контакт:** sulaimanoviligiz2000@gmail.com  
     **Описание:** Это приложение использует обученную модель CodeBERT для проверки корректности JavaScript кода.
 """)
 
